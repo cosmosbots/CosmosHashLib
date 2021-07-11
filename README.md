@@ -26,6 +26,8 @@ hash = CosmosHashLib.SHA256.HashSaltPepper('hash a string')
 
 # returns True or False
 CosmosHashLib.SHA256.VerifySaltPepper('hash a string', hash)
+
+# Use CosmosHashLib.SHA1 for SHA1 hashes
 ```
 
 ## Contributing
