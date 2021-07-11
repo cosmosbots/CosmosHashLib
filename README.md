@@ -16,7 +16,8 @@ pip install CosmosHashLib
 ```python
 from CosmosHashLib import hashing
 
-# if no pepper is set, no attempt will be made to pepper the input
+# if no pepper is set
+# no attempt will be made to pepper the input
 
 hashing.RandLen(73415123615248374531263482374652358413461324623874189024189236192837189237273452631741)
 hashing.Pepper('secret pepper')

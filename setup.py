@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="CosmosHashLib",
-    version="0.0.7",
+    version="0.0.8",
     author="Cosmos Bots",
     author_email="contact@cosmosbots.com",
     description="A simple hashing wrapper with support for salts and peppers",
